@@ -10,3 +10,63 @@ body {
 }
 
 /* Add styles here! */
+
+header {
+  border-bottom: 8px solid #999;
+
+  .title {
+    margin-block: 96px 48px;
+    line-height: 38px;
+  }
+
+  .intro-chunk {
+    padding-inline: 24px;
+    margin-bottom: 64px;
+  }
+
+  p {
+    max-width: 415px;
+  }
+}
+
+main {
+  background-color: #666;
+  padding-block: 64px 58px;
+
+  .card {
+    border-bottom: 8px solid #999;
+    background-color: #FFF;
+    padding-block: 8px;
+    padding-right: 24px;
+
+    .indented-heading {
+      width: fit-content;
+      background-color: #FFBF00;
+      border-bottom: 8px solid #C90;
+      margin-inline-start: -8px;
+      padding: 16px 32px 15.5px 32px;
+      margin-block: 0 16px;
+    }
+
+    p {
+      padding-inline-start: 24px;
+    }
+  }
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+strong {
+  color: #096;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-block: 16px;
+}
